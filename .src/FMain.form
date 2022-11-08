@@ -1,0 +1,44 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,64,64)
+  { LResult Label
+    MoveScaled(10,25,44,22)
+    Font = Font["+7"]
+    Alignment = Align.Center
+    Text = ("RESULTADO")
+  }
+  { BNombre Button
+    MoveScaled(4,56,16,4)
+    Text = ("Nombre")
+  }
+  { BTlf Button
+    MoveScaled(44,56,16,4)
+    Text = ("Teléfono")
+  }
+  { BDir Button
+    MoveScaled(24,56,16,4)
+    Text = ("Dirección")
+  }
+  { TBNombre TextBox
+    MoveScaled(26,4,24,4)
+  }
+  { TBDir TextBox
+    MoveScaled(26,11,24,4)
+  }
+  { TBTlf TextBox
+    MoveScaled(26,18,24,4)
+  }
+  { LNombre Label
+    MoveScaled(12,4,8,4)
+    Text = ("Nombre:")
+  }
+  { LDir Label
+    MoveScaled(12,11,9,4)
+    Text = ("Dirección:")
+  }
+  { LTlf Label
+    MoveScaled(12,18,8,4)
+    Text = ("Teléfono:")
+  }
+}

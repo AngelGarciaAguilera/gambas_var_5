@@ -1,0 +1,26 @@
+' Gambas class file
+
+Private nombre As String 
+Private direccion As String 
+Private telefono As String 
+
+Public Sub BNombre_Click()
+  
+  nombre = TBNombre.Text
+  LResult.Text = nombre
+
+End
+
+Public Sub BDir_Click()
+  
+  direccion = TBDir.Text
+  LResult.Text = direccion
+
+End
+
+Public Sub BTlf_Click()
+  
+  telefono = TBTlf.Text
+  LResult.Text = telefono
+
+End
